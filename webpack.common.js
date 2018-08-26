@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'bundle.js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname + '/build'),
   },
   resolve: {
@@ -17,10 +17,6 @@ module.exports = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         loader: 'awesome-typescript-loader',
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
       },
       {
         enforce: 'pre',
