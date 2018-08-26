@@ -1,3 +1,7 @@
 import React from 'react'
 
-export default () => <h1>Hello, world!</h1>
+type Props = {
+	world: string
+}
+
+export default ({ world }: Props) => <h1>Hello, {world}!</h1>
