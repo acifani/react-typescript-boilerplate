@@ -1,3 +1,4 @@
+const path = require('path')
 const merge = require('webpack-merge')
 const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
@@ -8,6 +9,11 @@ const common = require('./webpack.common')
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
+  bail: true,
+  output: {
+    filename: '[name].[contenthash].js',
+    path: path.resolve(__dirname + '/build'),
+  },
   module: {
     rules: [
       {
