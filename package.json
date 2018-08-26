@@ -5,8 +5,8 @@
   "author": "Alessandro Cifani <alessandro.cifani@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack-dev-server --config webpack.dev.js --open"
   },
   "dependencies": {
     "react": "^16.4.2",
@@ -23,6 +23,8 @@
     "style-loader": "^0.22.1",
     "typescript": "^3.0.1",
     "webpack": "^4.17.1",
-    "webpack-command": "^0.4.1"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6",
+    "webpack-merge": "^4.1.4"
   }
 }
