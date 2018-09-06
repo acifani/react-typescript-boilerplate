@@ -6,7 +6,6 @@ TODO:
 - [x] Typescript
 - [x] Webpack
 - [x] Babel
-- [ ] Prettier
+- [x] Prettier
+- [x] TSLint
 - [ ] Tests
-- [ ] Husky + Lint Staged
-- [ ] TSLint
