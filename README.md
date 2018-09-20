@@ -9,3 +9,5 @@ TODO:
 - [x] Prettier
 - [x] TSLint
 - [ ] Tests
+- [ ] Sass
+- [ ] Live demo
