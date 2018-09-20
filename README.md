@@ -10,4 +10,5 @@ TODO:
 - [x] TSLint
 - [ ] Tests
 - [ ] Sass
+- [ ] Travis
 - [ ] Live demo
