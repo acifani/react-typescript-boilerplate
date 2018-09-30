@@ -8,7 +8,7 @@ TODO:
 - [x] Babel
 - [x] Prettier
 - [x] TSLint
+- [x] Sass
 - [ ] Tests
-- [ ] Sass
 - [ ] Travis
 - [ ] Live demo
