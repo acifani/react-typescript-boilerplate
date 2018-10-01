@@ -7,5 +7,14 @@
     ["@babel/env", { "useBuiltIns": "usage", "modules": false }],
     "@babel/typescript",
     "@babel/react"
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["@babel/env", { "useBuiltIns": "usage" }],
+        "@babel/typescript",
+        "@babel/react"
+      ]
+    }
+  }
 }
