@@ -1,4 +1,4 @@
-# react-typescript-boilerplate
+# react-typescript-boilerplate [![Build Status](https://travis-ci.com/acifani/react-typescript-boilerplate.svg?branch=master)](https://travis-ci.com/acifani/react-typescript-boilerplate)
 
 TODO:
 
